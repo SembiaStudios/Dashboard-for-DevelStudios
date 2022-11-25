@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<style>
+    .page-content {
+        padding: 150px 150px;
+    }
+    .page-content2 {
+        padding: 350px 350px;
+    }
+    .page-content3 {
+        padding: 350px 350px;
+    }
+</style>
+
+</head>
+<body>
+    <!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+mdl-layout--fixed-tabs">
+<header class="mdl-layout__header">
+<div class="mdl-layout__header-row">
+<!-- Title -->
+<span class="mdl-layout-title">DevelStudios Managment Software</span>
+</div>
+<!-- Tabs -->
+<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Dashboard</a>
+<a href="#fixed-tab-2" class="mdl-layout__tab">Analytics</a>
+<a href="#fixed-tab-3" class="mdl-layout__tab">Mitarbeiter</a>
+</div>
+</header>
+<div class="mdl-layout__drawer">
+<span class="mdl-layout-title">DevelStudios</span>
+</div>
+<main class="mdl-layout__content">
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+<div class="page-content">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Game</th>
+            <th>Downloads</th>
+            <th>Earnings</th>
+            <th>Game Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Devel-Hate-Run</td>
+            <td>0</td>
+            <td>0€</td>
+            <td>0€</td>
+          </tr>
+        </tbody>
+      </table>      
+</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+<div class="page-content2">
+    <h3>  Comming Soon</h3>
+    <!-- MDL Progress Bar with Indeterminate Progress -->
+<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+<div class="page-content3">
+    <h3>  Comming Soon</h3>
+    <!-- MDL Progress Bar with Indeterminate Progress -->
+<div id="p3" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+</div>
+</section>
+</main>
+</div>
+
+</body>
+</html>
